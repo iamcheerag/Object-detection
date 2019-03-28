@@ -4,13 +4,12 @@ import pyttsx3
 
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 blind_stick_cascade = cv2.CascadeClassifier('blind_stick_cascade.xml')
-#mobile_cascade = cv2.CascadeClassifier('mobile_cascade.xml')
 mobile_charger_cascade = cv2.CascadeClassifier('mobile_charger_cascade.xml')
-#plate_cascade = cv2.CascadeClassifier('plate_cascade.xml')
+plate_cascade = cv2.CascadeClassifier('plate_cascade.xml')
 radio_cascade = cv2.CascadeClassifier('radio_cascade.xml')
 spoon_cascade = cv2.CascadeClassifier('spoon_cascade.xml')
 toothbrush_cascade = cv2.CascadeClassifier('toothbrush_cascade.xml')
-#vehicle_cascade = cv2.CascadeClassifier('vehicle_cascade.xml')
+vehicle_cascade = cv2.CascadeClassifier('vehicle_cascade.xml')
 
 
 engine = pyttsx3.init()
