@@ -2,6 +2,9 @@ import numpy as np
 import cv2
 #import pyttsx3
 
+
+
+
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 blind_stick_cascade = cv2.CascadeClassifier('blind_stick_cascade.xml')
 mobile_cascade = cv2.CascadeClassifier('mobile_cascade.xml')
